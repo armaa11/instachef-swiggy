@@ -2,20 +2,20 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-# Install system dependencies (needed for yt-dlp/ffmpeg and building packages)
+# Install system dependencies
 RUN apt-get update && apt-get install -y \
     ffmpeg \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy requirements and install python dependencies
-COPY requirements.txt .
+# Copy requirements from the backend folder
+COPY backend/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application
-COPY . .
+# Copy the backend source code
+COPY backend/ .
 
-# Expose the port the app runs on
+# Expose the port
 EXPOSE 8000
 
 # Command to run the application
