@@ -1,0 +1,38 @@
+# Render deployment manifest for the InstaChef AI project.
+# This file is in the root and points to the nested directories.
+
+services:
+  - type: web_service
+    name: instachef-backend
+    env: docker
+    branch: main
+    region: oregon
+    plan: starter
+    dockerfilePath: Dockerfile
+    rootDir: mise-en-place/backend
+    envVars:
+      - key: REDIS_URL
+        value: ""
+      - key: OPENAI_API_KEY
+        value: ""
+      - key: ANTHROPIC_API_KEY
+        value: ""
+      - key: SWIGGY_CLIENT_ID
+        value: ""
+      - key: SWIGGY_CLIENT_SECRET
+        value: ""
+      - key: DATABASE_URL
+        value: ""
+
+  - type: web_service
+    name: instachef-frontend
+    env: node
+    branch: main
+    region: oregon
+    plan: starter
+    rootDir: mise-en-place/frontend
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        value: ""
