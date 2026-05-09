@@ -1,5 +1,5 @@
 # Render deployment manifest for the InstaChef AI project.
-# This file is in the root and points to the nested directories.
+# This config points to the flat folders at the root (backend/ and frontend/).
 
 services:
   - type: web_service
@@ -8,8 +8,8 @@ services:
     branch: main
     region: oregon
     plan: starter
-    dockerfilePath: Dockerfile
-    rootDir: mise-en-place/backend
+    dockerfilePath: backend/Dockerfile
+    rootDir: backend
     envVars:
       - key: REDIS_URL
         value: ""
@@ -30,7 +30,7 @@ services:
     branch: main
     region: oregon
     plan: starter
-    rootDir: mise-en-place/frontend
+    rootDir: frontend
     buildCommand: npm install && npm run build
     startCommand: npm run start
     envVars:

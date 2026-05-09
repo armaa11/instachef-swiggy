@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     SWIGGY_OAUTH_TOKEN_URL: str = "https://mcp.swiggy.com/oauth/token"
     SWIGGY_OAUTH_REDIRECT_URI: str = "http://localhost:8000/auth/callback"
     REDIS_URL: str = "redis://localhost:6379"
+    DATABASE_URL: str = ""
     SECRET_KEY: str = "secret"
     LOG_LEVEL: str = "INFO"
     MOCK_MCP: bool = True
