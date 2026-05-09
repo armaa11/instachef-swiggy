@@ -1,0 +1,266 @@
+[
+  {
+    "canonical": "coriander leaves",
+    "search_term": "coriander leaves",
+    "variants": ["dhania", "kothamalli", "kothambari", "cilantro", "hara dhania", "fresh coriander"],
+    "category": "herbs",
+    "typical_pack_sizes_grams": [50, 100, 200],
+    "default_grams_per_tsp": 2
+  },
+  {
+    "canonical": "cumin seeds",
+    "search_term": "jeera",
+    "variants": ["jeera", "jira", "zeera", "cumin"],
+    "category": "spice",
+    "typical_pack_sizes_grams": [50, 100, 200],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "turmeric",
+    "search_term": "turmeric powder",
+    "variants": ["haldi", "manjal", "turmeric powder"],
+    "category": "spice",
+    "typical_pack_sizes_grams": [50, 100, 200],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "red chilli powder",
+    "search_term": "red chilli powder",
+    "variants": ["lal mirch", "mirchi powder", "chilli powder", "red chili powder"],
+    "category": "spice",
+    "typical_pack_sizes_grams": [50, 100, 200],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "garam masala",
+    "search_term": "garam masala",
+    "variants": ["garam masala", "garam masala powder"],
+    "category": "spice",
+    "typical_pack_sizes_grams": [50, 100],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "mustard seeds",
+    "search_term": "mustard seeds",
+    "variants": ["rai", "sarson", "kadugu", "sasive"],
+    "category": "spice",
+    "typical_pack_sizes_grams": [50, 100],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "curry leaves",
+    "search_term": "curry leaves",
+    "variants": ["kadi patta", "meetha neem", "karivepaku", "kariveppilai"],
+    "category": "herbs",
+    "typical_pack_sizes_grams": [20, 50],
+    "default_grams_per_tsp": 2
+  },
+  {
+    "canonical": "ginger",
+    "search_term": "ginger",
+    "variants": ["adrak", "inji", "allam"],
+    "category": "vegetable",
+    "typical_pack_sizes_grams": [100, 250],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "garlic",
+    "search_term": "garlic",
+    "variants": ["lehsun", "poondu", "vellulli"],
+    "category": "vegetable",
+    "typical_pack_sizes_grams": [100, 200],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "onion",
+    "search_term": "onion",
+    "variants": ["pyaaz", "vengayam", "pyaaj", "ullipaya", "erulli"],
+    "category": "vegetable",
+    "typical_pack_sizes_grams": [1000, 2000],
+    "default_grams_per_tsp": null
+  },
+  {
+    "canonical": "tomato",
+    "search_term": "tomato",
+    "variants": ["tamatar", "thakkali", "tamota"],
+    "category": "vegetable",
+    "typical_pack_sizes_grams": [500, 1000],
+    "default_grams_per_tsp": null
+  },
+  {
+    "canonical": "green chilli",
+    "search_term": "green chilli",
+    "variants": ["hari mirch", "pacha milagai", "pachi mirchi", "hasiru menasinakai", "green chilies", "green chili"],
+    "category": "vegetable",
+    "typical_pack_sizes_grams": [100, 250],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "ghee",
+    "search_term": "ghee",
+    "variants": ["clarified butter", "desi ghee", "neyyi", "tuppa"],
+    "category": "dairy",
+    "typical_pack_sizes_grams": [200, 500, 1000],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "refined oil",
+    "search_term": "sunflower oil",
+    "variants": ["tel", "cooking oil", "sunflower oil", "vegetable oil", "oil"],
+    "category": "oil",
+    "typical_pack_sizes_grams": [1000],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "atta",
+    "search_term": "atta",
+    "variants": ["wheat flour", "chapati flour", "whole wheat flour", "godhumai", "godhuma pindi"],
+    "category": "grain",
+    "typical_pack_sizes_grams": [1000, 5000],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "basmati rice",
+    "search_term": "basmati rice",
+    "variants": ["long grain rice", "biryani rice"],
+    "category": "grain",
+    "typical_pack_sizes_grams": [1000, 5000],
+    "default_grams_per_tsp": null
+  },
+  {
+    "canonical": "paneer",
+    "search_term": "paneer",
+    "variants": ["cottage cheese", "fresh cheese"],
+    "category": "dairy",
+    "typical_pack_sizes_grams": [200, 500],
+    "default_grams_per_tsp": null
+  },
+  {
+    "canonical": "curd",
+    "search_term": "curd",
+    "variants": ["yogurt", "dahi", "thayir", "perugu", "mosaru"],
+    "category": "dairy",
+    "typical_pack_sizes_grams": [200, 400, 500],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "fresh cream",
+    "search_term": "fresh cream",
+    "variants": ["amul cream", "cooking cream", "heavy cream"],
+    "category": "dairy",
+    "typical_pack_sizes_grams": [250, 1000],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "coconut milk",
+    "search_term": "coconut milk",
+    "variants": ["coconut extract", "nariyal doodh"],
+    "category": "dairy",
+    "typical_pack_sizes_grams": [200, 400],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "kasuri methi",
+    "search_term": "kasuri methi",
+    "variants": ["dried fenugreek leaves", "kasuri methi powder", "kasoori methi"],
+    "category": "herbs",
+    "typical_pack_sizes_grams": [25, 50],
+    "default_grams_per_tsp": 2
+  },
+  {
+    "canonical": "cardamom",
+    "search_term": "cardamom",
+    "variants": ["elaichi", "elakkai", "yalakki"],
+    "category": "spice",
+    "typical_pack_sizes_grams": [20, 50],
+    "default_grams_per_tsp": 2
+  },
+  {
+    "canonical": "cinnamon",
+    "search_term": "cinnamon",
+    "variants": ["dalchini", "pattai", "chekka"],
+    "category": "spice",
+    "typical_pack_sizes_grams": [20, 50],
+    "default_grams_per_tsp": 2
+  },
+  {
+    "canonical": "bay leaf",
+    "search_term": "bay leaf",
+    "variants": ["tej patta", "brinji elai"],
+    "category": "spice",
+    "typical_pack_sizes_grams": [20, 50],
+    "default_grams_per_tsp": 2
+  },
+  {
+    "canonical": "cloves",
+    "search_term": "cloves",
+    "variants": ["laung", "lavang", "lavangam"],
+    "category": "spice",
+    "typical_pack_sizes_grams": [20, 50],
+    "default_grams_per_tsp": 2
+  },
+  {
+    "canonical": "black pepper",
+    "search_term": "black pepper",
+    "variants": ["kali mirch", "milagu", "miriyalu", "pepper"],
+    "category": "spice",
+    "typical_pack_sizes_grams": [50, 100],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "asafoetida",
+    "search_term": "hing",
+    "variants": ["hing", "perungayam", "inguva"],
+    "category": "spice",
+    "typical_pack_sizes_grams": [50, 100],
+    "default_grams_per_tsp": 2
+  },
+  {
+    "canonical": "tamarind",
+    "search_term": "tamarind",
+    "variants": ["imli", "puli", "chintapandu", "hunasehannu"],
+    "category": "spice",
+    "typical_pack_sizes_grams": [200, 500],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "jaggery",
+    "search_term": "jaggery",
+    "variants": ["gud", "gur", "vellam", "bellam"],
+    "category": "spice",
+    "typical_pack_sizes_grams": [500, 1000],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "besan",
+    "search_term": "besan",
+    "variants": ["gram flour", "chickpea flour", "kadalai maavu", "senaga pindi"],
+    "category": "grain",
+    "typical_pack_sizes_grams": [500, 1000],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "chicken",
+    "search_term": "chicken breast",
+    "variants": ["murgh", "chicken breast", "chicken curry cut", "boneless chicken"],
+    "category": "protein",
+    "typical_pack_sizes_grams": [500, 1000],
+    "default_grams_per_tsp": null
+  },
+  {
+    "canonical": "toor dal",
+    "search_term": "toor dal",
+    "variants": ["arhar dal", "tuvar dal", "pigeon pea", "thuvaram paruppu", "kandi pappu", "togari bele"],
+    "category": "grain",
+    "typical_pack_sizes_grams": [500, 1000],
+    "default_grams_per_tsp": 5
+  },
+  {
+    "canonical": "salt",
+    "search_term": "salt",
+    "variants": ["namak", "uppu", "table salt"],
+    "category": "spice",
+    "typical_pack_sizes_grams": [1000],
+    "default_grams_per_tsp": 5
+  }
+]
